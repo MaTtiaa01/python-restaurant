@@ -6,3 +6,6 @@ from .models import Meal
 def meals(request):
     meals = Meal.objects.all()
     return render(request, 'meals/home.html', {'meals' : meals})
+
+def contacts(request):
+    return render(request, 'meals/contact-us.html')

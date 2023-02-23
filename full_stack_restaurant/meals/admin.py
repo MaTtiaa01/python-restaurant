@@ -4,3 +4,5 @@ from .models import Meal
 # Register your models here.
 
 admin.site.register(Meal)
+
+# credential superadmin => admin admin
